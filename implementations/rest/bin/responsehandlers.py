@@ -23,7 +23,19 @@ class MyResponseHandler:
         
     def __call__(self, response_object,raw_response_output,response_type,req_args,endpoint):        
         print_xml_stream("foobar")
+ 
+class XMLResponseHandler:
+    
+    def __init__(self,**args):
+        pass
         
+    def __call__(self, response_object,raw_response_output,response_type,req_args,endpoint):
+        
+        from xml.etree import ElementTree
+        e = ElementTree.fromstring(raw_response_output)
+        for entity in e.findall('entity'):
+            print_xml_stream(ElementTree.tostring(entity).decode())       
+               
 
 class RollOutCSVHandler:
     
@@ -213,6 +225,34 @@ class TwitterEventHandler:
         else:
             print_xml_stream(raw_response_output)
      
+
+class PostDateHandler:
+
+    def __init__(self,**args):
+        pass
+
+    def __call__(self, response_object,raw_response_output,response_type,req_args,endpoint):       
+        
+        #PSEUDO CODE ONLY TO GUIDE YOU , ADJUST AS NECESSARY
+
+        #index HTTP response 
+        print_xml_stream(raw_response_output)
+
+        #get POST data
+        if not "data" in req_args:
+            post_data = {}
+        else:
+            post_data = json.loads(req_args["data"])
+
+        #set new date to something
+        new_from_date = "2018-09-05 00:00:00"
+        new_to_date = "2018-10-05 00:00:00"
+        post_data["fromDate"] = new_from_date
+        post_data["toDate"] = new_to_date
+
+        #update POST data
+        req_args["data"] = json.dumps(post_data)
+
 
                 
 class AutomaticEventHandler:

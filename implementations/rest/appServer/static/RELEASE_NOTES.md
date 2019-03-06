@@ -1,3 +1,7 @@
+1.5.4
+-----
+* added a triggers stanza to app.conf to prevent reloading after saving state back to inputs.conf
+
 1.5.3
 -----
 * patched a bug to callbacks to Splunk for persisting state that required the activation key in the payload
