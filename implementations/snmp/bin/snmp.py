@@ -51,7 +51,7 @@ SCHEME = """<scheme>
             </arg>  
             <arg name="activation_key">
                 <title>Activation Key</title>
-                <description>Visit http://www.baboonbones.com/#activation to obtain a free,non-expiring key</description>
+                <description>Visit http://www.baboonbones.com/#activation to obtain a non-expiring key</description>
                 <required_on_edit>true</required_on_edit>
                 <required_on_create>true</required_on_create>
             </arg>

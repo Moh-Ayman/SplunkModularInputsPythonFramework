@@ -20,7 +20,7 @@ It is quite simply just a wrapper around whatever system commands/programs that 
 
 ## Activation Key
 
-You require an activation key to use this App. Visit http://www.baboonbones.com/#activation to obtain a free,non-expiring key
+You require an activation key to use this App. Visit http://www.baboonbones.com/#activation to obtain a non-expiring key
 
 ## Custom Output Handlers
 

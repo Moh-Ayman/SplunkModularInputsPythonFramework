@@ -8,7 +8,7 @@ This is a Splunk modular input add-on for polling SNMP attributes and catching t
 
 ## Activation Key
 
-You require an activation key to use this App. Visit http://www.baboonbones.com/#activation to obtain a free,non-expiring key
+You require an activation key to use this App. Visit http://www.baboonbones.com/#activation to obtain a non-expiring key
 
 ## Features
 
