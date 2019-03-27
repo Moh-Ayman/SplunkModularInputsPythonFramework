@@ -1,4 +1,4 @@
-## Scheduled Export of Indexed Data (SEND)  to File v0.6
+## Scheduled Export of Indexed Data (SEND)  to File v0.7
 
 ## Overview
 

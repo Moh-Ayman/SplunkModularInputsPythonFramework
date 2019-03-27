@@ -1,3 +1,7 @@
+0.9
+---
+* docs updates
+
 0.8
 ----
 * prevent dereferencing of message variable

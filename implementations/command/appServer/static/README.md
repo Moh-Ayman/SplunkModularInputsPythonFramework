@@ -1,4 +1,4 @@
-# Splunk Command Modular Input v1.2
+# Splunk Command Modular Input v1.3
 by www.baboonbones.com
 May 2018
 ----

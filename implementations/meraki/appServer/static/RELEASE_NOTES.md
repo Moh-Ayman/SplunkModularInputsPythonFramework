@@ -1,3 +1,7 @@
+0.9
+-----
+* docs updated
+
 0.8
 -----
 * Added an activation key requirement , visit http://www.baboonbones.com/#activation to obtain a non-expiring key

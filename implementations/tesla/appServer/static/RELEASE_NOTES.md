@@ -1,3 +1,7 @@
+0.9
+---
+* docs updated
+
 0.8.2
 -----
 * polling interval defaults to 300 , just a docs update

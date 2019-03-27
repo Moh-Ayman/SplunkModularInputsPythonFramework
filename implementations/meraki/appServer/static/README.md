@@ -1,4 +1,4 @@
-## Splunk Cisco Meraki Modular Input v0.8
+## Splunk Cisco Meraki Modular Input v0.9
 
 ## Overview
 

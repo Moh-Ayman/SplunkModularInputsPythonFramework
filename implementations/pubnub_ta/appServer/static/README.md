@@ -1,4 +1,4 @@
-# Splunk Pubnub Modular Input v1.1
+# Splunk Pubnub Modular Input v1.2
 
 ## Overview
 
